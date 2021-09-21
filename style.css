@@ -1,14 +1,14 @@
 body {
-  background-color: cadetblue;
-  color: crimson;
+  background-color: #03a9f4;
+  color: #ffffff;
   font-size: 25px;
 }
-h1 {
-  color: gold;
-}
-.gold {
-  color: gold;
-}
-.crimson {
-  color: ;
+
+.head {
+  text-align: center;
+  background-color: #1976d2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 40px 20px;
+  border: 5px solid #b2dfdb;
 }
