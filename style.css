@@ -1,14 +1,29 @@
 body {
-  background-color: #03a9f4;
+  background-color: #d1c4e9;
   color: #ffffff;
   font-size: 25px;
 }
 
 .head {
   text-align: center;
-  background-color: #1976d2;
+  background-color: #512da8;
   margin-top: 5px;
-  margin-bottom: 5px;
-  padding: 40px 20px;
-  border: 5px solid #b2dfdb;
+  margin-bottom: 40px;
+  padding: 50px 20px;
+  border: 5px solid #ffc107;
+}
+
+.main-page {
+  text-align: center;
+}
+
+.parent {
+  background-color: #512da8;
+  border: 5px solid #ffc107;
+  height: 75vh;
+  position: relative;
+}
+
+.child1 {
+  border: 3px solid #ffc107;
 }
