@@ -26,4 +26,21 @@ body {
 
 .child1 {
   border: 3px solid #ffc107;
+  position: absolute;
+  top: auto;
+  left: 200px;
+}
+
+.child2 {
+  border: 3px solid #ffc107;
+  position: absolute;
+  top: auto;
+  left: 800;
+}
+
+.child3 {
+  border: 3px solid #ffc107;
+  position: absolute;
+  top: auto;
+  right: 200px;
 }
