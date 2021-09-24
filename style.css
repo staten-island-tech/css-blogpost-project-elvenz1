@@ -1,7 +1,8 @@
 body {
   background-color: #d1c4e9;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 40px;
+  font-family: "Gemunu Libre", sans-serif;
 }
 
 .head {
@@ -20,27 +21,32 @@ body {
 .parent {
   background-color: #512da8;
   border: 5px solid #ffc107;
-  height: 75vh;
-  position: relative;
+  height: 150vh;
 }
 
 .child1 {
-  border: 3px solid #ffc107;
+  text-align: center;
+  border: 8px solid #ffc107;
   position: absolute;
-  top: auto;
-  left: 200px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .child2 {
-  border: 3px solid #ffc107;
+  text-align: center;
+  border: 8px solid #ffc107;
   position: absolute;
-  top: auto;
-  left: 800;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .child3 {
-  border: 3px solid #ffc107;
+  text-align: center;
+  border: 8px solid #ffc107;
   position: absolute;
-  top: auto;
-  right: 200px;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
