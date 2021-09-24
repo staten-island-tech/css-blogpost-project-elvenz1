@@ -16,37 +16,62 @@ body {
 
 .main-page {
   text-align: center;
+  margin-top: 80px;
 }
 
 .parent {
   background-color: #512da8;
   border: 5px solid #ffc107;
-  height: 150vh;
+  height: 260vh;
+  width: 150vh;
+  left: 50%;
+  transform: translate(-50%);
+  position: relative;
 }
 
 .child1 {
   text-align: center;
   border: 8px solid #ffc107;
   position: absolute;
-  top: 40%;
+  top: 21%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 90vh;
+  height: auto;
 }
 
 .child2 {
   text-align: center;
   border: 8px solid #ffc107;
   position: absolute;
-  top: 80%;
+  top: 51%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 90vh;
+  height: auto;
 }
 
 .child3 {
   text-align: center;
   border: 8px solid #ffc107;
   position: absolute;
-  top: 120%;
+  top: 81%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 90vh;
+  height: auto;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+}
+
+p {
+  font-size: 25px;
+}
+
+a {
+  font-size: 20px;
+  background-color: white;
 }
