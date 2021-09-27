@@ -22,49 +22,21 @@ body {
 .parent {
   background-color: #512da8;
   border: 5px solid #ffc107;
-  height: 260vh;
+  height: 250vh;
   width: 150vh;
   left: 50%;
   transform: translate(-50%);
   position: relative;
 }
 
-.child1 {
+.post {
   text-align: center;
   border: 8px solid #ffc107;
-  position: absolute;
-  top: 21%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 90vh;
   height: auto;
-}
-
-.child2 {
-  text-align: center;
-  border: 8px solid #ffc107;
-  position: absolute;
-  top: 51%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90vh;
-  height: auto;
-}
-
-.child3 {
-  text-align: center;
-  border: 8px solid #ffc107;
-  position: absolute;
-  top: 81%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90vh;
-  height: auto;
-}
-
-img {
-  width: 600px;
-  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 p {
@@ -74,4 +46,9 @@ p {
 a {
   font-size: 25px;
   background-color: white;
+}
+
+img {
+  width: 600px;
+  height: 400px;
 }
