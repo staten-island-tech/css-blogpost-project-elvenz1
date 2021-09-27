@@ -5,7 +5,7 @@ body {
   font-family: "Gemunu Libre", sans-serif;
 }
 
-.head {
+#head {
   text-align: center;
   background-color: #512da8;
   margin-top: 5px;
@@ -72,6 +72,6 @@ p {
 }
 
 a {
-  font-size: 20px;
+  font-size: 25px;
   background-color: white;
 }
